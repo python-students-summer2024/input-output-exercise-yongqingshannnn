@@ -37,3 +37,13 @@ def get_name_and_age():
   """
   # write your code here.
 
+def main():
+  """
+  Calls each of the functions defined above, in sequence
+  """
+  get_favorite_vegetable()
+  get_favorite_number()
+  get_name_and_zodiac_sign()
+  get_name_and_age()
+
+main()
