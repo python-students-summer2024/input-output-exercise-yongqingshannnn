@@ -1,6 +1,6 @@
 """
 A little assignment to practice receiving text
-input from the user in Python.
+input from the user in Python programming.
 """
 
 def get_favorite_vegetable():
@@ -10,8 +10,6 @@ def get_favorite_vegetable():
   where X is replaced with the user's favorite vegetable.
   """
   # write your code here.
-  veggie = input("What's your favorite vegetable?")
-  print("Interesting! I also love " + veggie + "!")
 
 def get_favorite_number():
   """
@@ -20,8 +18,6 @@ def get_favorite_number():
   where X is replaced with the user's favorite number.
   """
   # write your code here.
-  num = input("What's your favorite number?")
-  print("Interesting! I also love " + num + "!")
 
 def get_name_and_zodiac_sign():
   """
@@ -31,9 +27,6 @@ def get_name_and_zodiac_sign():
   where X and Y are replaced by the user's name and zodiac sign, respectively.
   """
   # write your code here.
-  name = input("What's your name?")
-  sign = input("What's your zodiac sign?")
-  print("Interesting! My name is also " + name + ", and I'm also a " + sign + "!")
 
 def get_name_and_age():
   """
@@ -43,7 +36,4 @@ def get_name_and_age():
   where X and Y are replaced by the user's name and age, respectively.
   """
   # write your code here.
-  name = input("What's your name?")
-  age = input("What's your age?")
-  print("Interesting! My name is also " + name + ", and I'm also " + str(age) + " years old!")
 
