@@ -1,6 +1,6 @@
 import unittest
-import mock
-import builtins
+#import mock
+#import builtins
 from practice_input import *
 
 class Tests:
