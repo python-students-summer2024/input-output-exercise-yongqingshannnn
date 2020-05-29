@@ -13,9 +13,13 @@ There are two starter code files:
 - **practice_input.py**
 - **practice_output.py**
 
+And one program that, when run, will run all the code in both those `practice_` files.
+
+- **main.py**
+
 ### Filling in the functions
 
-Both have some pre-defined functions. Each function has instructions for what code to write and place within it.
+Both `practice_` files have some pre-defined functions. Each function has instructions for what code to write and place within it.
 
 In order to properly place code within a function, the code within the function must be indented underneath the function definition.
 
@@ -41,6 +45,35 @@ def print_with_line_break():
 ```
 
 Note that the `print("Hello world!")` line is indented the same as the line above it, which is one tab to the right of the line that says, `def print_with_line_break():`. Keep this indentation.
+
+### Running your programs
+
+If you run the `practice_` files directly, they will not actually do anything... none of the functions in those files are run, by default.
+
+Run the given `main.py` file in order to run all the functions in the other two files.
+
+If you want to only one run function at a time, comment out the calls to the other functions that you don't want to run. Python comments are lines that have the `#` in front of them - this disables those lines and prevents the interpreter from running them.
+
+For example, if you only want to run the `print_with_line_break()` function from the `practice_output.py` file, your main function in `main.py` should look like this:
+
+```python
+def main():
+  """
+  Calls each of the functions in the practice_output and practice_input files
+  """
+
+  # call each function defined in practice_output
+  practice_output.print_with_line_break()
+  # practice_output.print_without_line_break()
+  # practice_output.print_with_separator_dash_and_with_line_break()
+  # practice_output.print_with_separator_dash_and_without_line_break()
+
+  # call each function defined in practice_input
+  # practice_input.get_favorite_vegetable()
+  # practice_input.get_favorite_number()
+  # practice_input.get_name_and_zodiac_sign()
+  # practice_input.get_name_and_age()
+```
 
 ### Testing your work
 
