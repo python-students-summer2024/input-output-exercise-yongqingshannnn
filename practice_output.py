@@ -32,15 +32,3 @@ def print_with_separator_dash_and_without_line_break():
   """
   # write your code here
   # you must supply each word as a separate argument to the print() function
-
-def main():
-  """
-  Calls each of the functions defined above, in the order written.
-  """
-  # write your code here
-  print_with_line_break()
-  print_without_line_break()
-  print_with_separator_dash_and_with_line_break()
-  print_with_separator_dash_and_without_line_break()
-
-main()

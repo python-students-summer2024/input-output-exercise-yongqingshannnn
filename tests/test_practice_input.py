@@ -1,5 +1,6 @@
+import unittest
 import mock
-#import builtins
+import builtins
 from practice_input import *
 
 class Tests:
@@ -48,3 +49,6 @@ class Tests:
     captured = capsys.readouterr() # capture print output
     assert "Interesting! My name is also libra, and I'm also a libra!" in captured.out
     
+     
+if __name__ == '__main__':
+    unittest.main()

@@ -36,14 +36,3 @@ def get_name_and_age():
   where X and Y are replaced by the user's name and age, respectively.
   """
   # write your code here.
-
-def main():
-  """
-  Calls each of the functions defined above, in sequence
-  """
-  get_favorite_vegetable()
-  get_favorite_number()
-  get_name_and_zodiac_sign()
-  get_name_and_age()
-
-main()
