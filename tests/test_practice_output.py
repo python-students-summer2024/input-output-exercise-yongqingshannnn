@@ -34,11 +34,3 @@ class Tests:
     print_with_separator_dash_and_without_line_break()
     captured = capsys.readouterr() # capture print output
     assert captured.out == "Twas-brillig-and-the-slithy-toves"
-
-  def test_main(self, capsys):
-    """
-    Test the main method
-    """
-    main()
-    captured = capsys.readouterr() # capture print output
-    assert captured.out == "Hello world!\nHello world!Twas-brillig-and-the-slithy-toves\nTwas-brillig-and-the-slithy-toves"
