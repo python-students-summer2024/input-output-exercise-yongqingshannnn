@@ -9,6 +9,7 @@ Run this file to see whether the code in each of the functions has the correct b
     # practice_output.print_with_line_break()
 """
 
+# import both files
 import practice_output
 import practice_input
 

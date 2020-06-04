@@ -1,6 +1,6 @@
 """
-A little assignment to practice receiving text
-input from the user in Python programming.
+A little assignment to practice receiving text input from the user in Python programming.
+Do not run this file... run main.py instead.
 """
 
 def get_favorite_vegetable():

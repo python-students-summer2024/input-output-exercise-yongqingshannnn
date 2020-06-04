@@ -1,6 +1,7 @@
 """
 A little assignment to practice printing text 
 output to the Python command line.
+Do not run this file... run main.py instead.
 """
 
 def print_with_line_break():
