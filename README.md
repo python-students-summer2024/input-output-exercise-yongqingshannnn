@@ -78,3 +78,5 @@ def main():
 ### Testing your work
 
 Included in the given code are some tests, using the **pytest** testing framework. These tests should all pass if the code in each function is done correctly.
+
+If the tests do not appear, or seem to never stop loading, open up a Terminal window and run the command, `pytest --collect-only`, to see whether there are any errors in the code that prevent the tests from being discovered.
