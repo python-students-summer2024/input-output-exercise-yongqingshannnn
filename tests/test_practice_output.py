@@ -9,7 +9,9 @@ class Tests:
     """
     print_with_line_break()
     captured = capsys.readouterr() # capture print output
-    assert captured.out == "Hello world!\n"
+    actual = captured.out
+    expected = "Hello world!\n"
+    assert expected == actual, f'Expected the print_with_line_break() function to print "{expected}"; instead, it printed "{actual}".'
 
   def test_print_without_line_break(self, capsys):
     """
@@ -17,7 +19,9 @@ class Tests:
     """
     print_without_line_break()
     captured = capsys.readouterr() # capture print output
-    assert captured.out == "Hello world!"
+    actual = captured.out
+    expected = "Hello world!"
+    assert expected == actual, f'Expected the print_without_line_break() function to print "{expected}"; instead, it printed "{actual}".'
 
   def test_print_with_separator_dash_and_with_line_break(self, capsys):
     """
@@ -25,7 +29,9 @@ class Tests:
     """
     print_with_separator_dash_and_with_line_break()
     captured = capsys.readouterr() # capture print output
-    assert captured.out == "Twas-brillig-and-the-slithy-toves\n"
+    actual = captured.out
+    expected =  "Twas-brillig-and-the-slithy-toves\n"
+    assert expected == actual, f'Expected the print_with_separator_dash_and_with_line_break() function to print "{expected}"; instead, it printed "{actual}".'
 
   def test_print_with_separator_dash_and_without_line_break(self, capsys):
     """
@@ -33,4 +39,6 @@ class Tests:
     """
     print_with_separator_dash_and_without_line_break()
     captured = capsys.readouterr() # capture print output
-    assert captured.out == "Twas-brillig-and-the-slithy-toves"
+    actual = captured.out
+    expected =  "Twas-brillig-and-the-slithy-toves"
+    assert expected == actual, f'Expected the print_with_separator_dash_and_without_line_break() function to print "{expected}"; instead, it printed "{actual}".'

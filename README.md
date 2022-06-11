@@ -19,7 +19,7 @@ And one program that, when run, will run all the code in both those `practice_` 
 
 ### Filling in the functions
 
-Both `practice_` files have some pre-defined functions. Each function has instructions for what code to write and place within it.
+Both `practice_*` files have some pre-defined functions. Each function has instructions for what code to write and place within it.
 
 In order to properly place code within a function, the code within the function must be indented underneath the function definition.
 
@@ -48,7 +48,7 @@ Note that the `print("Hello world!")` line is indented the same as the line abov
 
 ### Running your programs
 
-If you run the `practice_` files directly, they will not actually do anything... none of the functions in those files are run, by default.
+If you run the `practice_*` files directly, they will not actually do anything... none of the functions in those files are run, by default.
 
 Run the given `main.py` file in order to run all the functions in the other two files.
 
@@ -79,4 +79,4 @@ def main():
 
 Included in the given code are some tests, using the **pytest** testing framework. These tests should all pass if the code in each function is done correctly.
 
-If the tests do not appear, or seem to never stop loading, open up a Terminal window and run the command, `pytest --collect-only`, to see whether there are any errors in the code that prevent the tests from being discovered.
+If the tests do not appear, or seem to never stop loading, open up a Terminal window and run the command, `pytest --collect-only`, to see whether there are any errors in the code that prevent the tests from being discovered. If there are no errors reported from that command, try running the tests directly from the Terminal with the command, `pytest`.
